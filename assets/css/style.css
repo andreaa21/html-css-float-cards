@@ -13,10 +13,16 @@
   border: 1px solid black;
 }
 
+.clearfix::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
 /* components */
 
 .container{
-  width: 70%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -25,6 +31,52 @@
 
 .container .title{
   color: #FF358F;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
+}
+
+.container p{
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+
+.container .row-1{
+  padding-top: 10px;
+}
+
+.container .row-1 .col{
+  float: left;
+  width: calc(90% / 3);
+  height: 60px;
+  text-align: center;
+  background-color: black;
+  margin: 10px 10px 10px 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+
+.col img{
+  float: left;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.col span{
+  color: white;
+  text-align: left;
+  font-size: 0.8rem;
+  display: block;
+  padding-top: 2px;
+}
+
+.col .text{
+  padding-top: 5px;
+}
+
+.text .mail{
+  color: rgb(90, 201, 245);
+}
+
+.text .job, .mail{
+  font-size: 0.6rem;
 }
