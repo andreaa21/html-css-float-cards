@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: boredr-box;
-  }
+}
+
+body{
+  font-family:'Fredoka', sans-serif;
+}
 
   /* utility */
 
@@ -49,7 +53,7 @@
   float: left;
   width: calc(90% / 3);
   height: 60px;
-  margin: 20px 10px;
+  margin: 10px;
   background-color: black;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
 }
@@ -78,4 +82,8 @@
 
 .text .job, .mail{
   font-size: 0.6rem;
+}
+
+.text .name{
+  font-weight: bold;
 }
