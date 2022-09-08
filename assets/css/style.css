@@ -41,17 +41,16 @@
   padding: 10px 0;
 }
 
-.container .row-1{
+.container .row{
   padding-top: 10px;
 }
 
-.container .row-1 .col{
+.container .row .col{
   float: left;
   width: calc(90% / 3);
   height: 60px;
-  text-align: center;
+  margin: 0 10px;
   background-color: black;
-  margin: 10px 10px 10px 0;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
 }
 
@@ -66,7 +65,7 @@
   text-align: left;
   font-size: 0.8rem;
   display: block;
-  padding-top: 2px;
+  padding-top: 3px;
 }
 
 .col .text{
