@@ -7,9 +7,16 @@
   }
 
   /* utility */
-  
+
 .debug{
   background-color: rgba(255, 0, 0, .25);
   border: 1px solid black;
 }
 
+/* components */
+
+.container{
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
